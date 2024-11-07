@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Student | using CSS Flexbox</title>
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				height: 100vh;
+				width: 100vw;
+			}
+			.container1 {
+				display: flex;
+				width: 100vw;
+				justify-content: center;
+				height: 30vh;
+				align-items: center;
+			}
+
+			.container2 {
+				display: flex;
+				width: 100vw;
+				justify-content: center;
+				height: 30vh;
+				align-items: start;
+			}
+
+			.student {
+				border: 1px solid #333;
+				padding: 10px;
+				width: 200px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container1">
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Justita Moodie</h3>
+				<p>Student ID: Z66609</p>
+				<p>Program: Psychology</p>
+				<button>View Profile</button>
+			</div>
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Princess Mae Veraesta</h3>
+				<p>Student ID: Z66610</p>
+				<p>Program: Computer Science</p>
+				<button>View Profile</button>
+			</div>
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Frowelanay Quinoa</h3>
+				<p>Student ID: Z66608</p>
+				<p>Program: Computer Science</p>
+				<button>View Profile</button>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Cassandra Marie Quitey</h3>
+				<p>Student ID: Z66602</p>
+				<p>Program: Nursing</p>
+				<button>View Profile</button>
+			</div>
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Havenashe Frookta</h3>
+				<p>Student ID: Z66601</p>
+				<p>Program: Witch</p>
+				<button>View Profile</button>
+			</div>
+			<div class="student">
+				<img
+					src="https://via.placeholder.com/50"
+					alt="Student Image" />
+				<h3>Thooo Bhohl</h3>
+				<p>Student ID: Z66611</p>
+				<p>Course: Computer Science</p>
+				<button>View Profile</button>
+			</div>
+		</div>
+	</body>
+</html>
